@@ -1,0 +1,13 @@
+cpf,nome,ccb,contract_status,disbursement_status,disbursement_error,last_disbursement_attempt,bank_validated,onboarding_step,onboarding_error,credit_status,installment_ref,installment_status,installment_amount_brl,payment_provider,payment_id,payment_status,payment_amount_brl,payment_received_at,last_doc_generated,last_doc_type,last_doc_status,term_email_status,renegotiation_eligible,renegotiation_block_reason,days_past_due,accelerated_installments,lead_status,lgpd_delete_requested,hours_since_signature
+90211111101,Cliente Fictício A,90001001,assinado,aguardando_desembolso,ANTIFRAUD_HOLD,2026-08-06T05:10:00Z,sim,,,aprovado_alpha9,,,,,,,,,,,,,,,,,,,22
+90222222202,Cliente Fictício B,,,,,,sim,document_upload,KYC_DOC_EXPIRED,aprovado_alpha9,,,,,,,,,,,,,,,,,lead_ativo,,
+90233333303,Cliente Fictício C,90003001,ativo,,,,sim,,,quitado_parcial,parcela_5,aberta,380.00,banco,banco_pay_r2_d01;banco_pay_r2_d02,pago,380.00,2026-08-05T14:20:00Z,,,,,,,,,,,
+90244444404,Cliente Fictício D,90004001,ativo,,,,sim,,,,parcela_4,aberta,412.50,banco,,,,,doc_r2_0401,boleto_parcela,vencida,,,,,,,,
+90255555505,Cliente Fictício E,90005001,ativo,,,,sim,,,,proposta_reneg,aberta,1890.00,banco,,,,,,,,,sim,,95,,,,
+90266666606,Cliente Fictício F,,,,,,nao,completed,,reprovado_alpha9,,,,,,,,,,,,,,,,,lead_ativo,nao,
+90277777707,Cliente Fictício G,90007001,quitado,,,,sim,,,,,,,,,,,,,,,bounce,,,,,,,
+90288888808,Cliente Fictício H,90008001,recusado,cancelado,RECUSA_CREDITO,2026-08-05T16:00:00Z,sim,,,,,,,,,,,,,,,,,,,,,,
+90299999909,Cliente Fictício I,90009001,ativo,,,,sim,,,quitado_parcial,parcela_3,aberta,403.06,banco,banco_pay_r2_i01,pago,403.06,2026-08-05T11:05:00Z,,,,,,,,,,,
+90210101010,Cliente Fictício J,90010001,ativo,,,,sim,,,,parcela_7,aberta,390.00,banco,,,,,,,,,,,45,,,,
+90288888808,Cliente Fictício H,90008002,assinado,aguardando_desembolso,,2026-08-05T20:30:00Z,sim,,,,,,,,,,,,,,,,,,,,,,16
+90212121212,Cliente Fictício L,90012001,assinado,aguardando_desembolso,,2026-08-06T12:15:00Z,sim,,,,,,,,,,,,,,,,,,,,,,2
