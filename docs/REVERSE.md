@@ -61,15 +61,15 @@ Como a resposta **mudaria sua trilha** (passos 5-7 em [MODELO-TRILHA](./MODELO-T
 
 **a) Contexto:**
 
-> _(escreva aqui)_
+> No IT-2008 e no IT-2011, o mesmo CPF aparece em duas CCBs: a 90008001 está recusada/cancelada por `RECUSA_CREDITO`, enquanto a 90008002 está assinada e aguardando desembolso. O material não informa a regra de prioridade ou o SLA quando o CX abre tickets para contratos diferentes do mesmo cliente.
 
 **b) Sua pergunta ao time:**
 
-> _(escreva aqui)_
+> “Qual é o SLA e a regra operacional para priorizar a CCB 90008002, assinada e aguardando desembolso, quando existe outra CCB do mesmo CPF (90008001) recusada/cancelada? Há algum bloqueio de cliente ou devo tratar cada CCB de forma independente?”
 
 **c) Por que isso importa / o que mudaria na trilha:**
 
-> _(escreva aqui)_
+> Se as CCBs forem independentes, mantenho o IT-2008 solucionado por orientação e acompanho e escalo apenas a fila da 90008002 conforme o SLA. Se houver bloqueio por cliente ou regra de prioridade entre propostas, registro a dependência entre os tickets e escalo para crédito/operação antes de agir na segunda CCB.
 
 ---
 
@@ -81,11 +81,11 @@ Preencha com honestidade - usar IA para organizar texto ou revisar redação **n
 
 | Campo | Resposta |
 |-------|----------|
-| Usou IA neste teste? | Sim / Não |
-| Ferramenta(s) | _(ex.: ChatGPT, Claude, Copilot, Cursor…)_ |
-| Para quê? | _(ex.: revisar texto da trilha, resumir CSV, checar nomenclatura…)_ |
-| O que **não** delegou à IA? | _(ex.: ordem da triagem, hipótese do IT-2003, decisão de escalar IT-2001…)_ |
+| Usou IA neste teste? | Sim |
+| Ferramenta(s) | GitHub Copilot |
+| Para quê? | Organizar a leitura dos documentos, cruzar os tickets com o CSV e revisar a redação e estrutura das trilhas e as anotações que fiz para cada ticket. |
+| O que **não** delegou à IA? | A validação das evidências que fiz uma a uma com base no csv, a ordem da triagem de acordo com o que julguei mais critico ou menos critico, as hipóteses por ticket e as decisões de resolver, quando orientar ou escalar. |
 
 **Comentário opcional** (1-3 linhas):
 
-> _(escreva aqui)_
+> A decisão final foi baseada nos campos do export e nas regras do fluxo; a IA foi usada como apoio de organização para que tudo fique bem estruturado e legivel.
